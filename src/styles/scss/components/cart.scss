@@ -1,0 +1,175 @@
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ff7010;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.content__catalog-cart {
+    gap: 20px;
+    margin-bottom: 20px;
+
+    .cart__items {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 20px;
+    }
+
+    .cart__item {
+        border: 1px solid #F0F0F0;
+        border-radius: 12px;
+        padding: 16px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 216px;
+        min-width: 870px;
+        &-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .cart__item-input {
+                display: flex;
+                position: relative;
+
+                input {
+                    padding: 13px;
+                    border: 1px solid #F0F0F0;
+                    border-radius: 6px 0px 0px 6px;
+                    outline: none;
+                }
+
+                svg {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    left: 190px;
+                    height: 43px;
+                }
+            }
+
+            .cart__item-totalCount {
+                color: #ff7010;
+                font-weight: 600;
+                font-size: 19px;
+                letter-spacing: 1, 5px;
+            }
+
+        }
+
+        &-left {
+            display: flex;
+            gap: 20px;
+            &-information {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 8px;
+                min-width: 300px;
+                &-title {
+                    color: #191919;
+                    font-weight: 900;
+                    font-size: 20px;
+
+                }
+
+                &-addtive {
+                    display: flex;
+
+                    ul {
+                        display: flex;
+                        max-width: 300px;
+                        flex-wrap: wrap;
+
+                        li {
+                            list-style: none;
+                            color: #ff7010;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        &-count {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: #ff7010;
+            font-weight: 600;
+            max-width: 200px;
+
+            &-left {
+                width: 100%;
+                padding: 14px 8px;
+                background: #FFEEE2;
+                border-radius: 6px;
+                font-size: 20px;
+                gap: 8px;
+                display: flex;
+                align-items: center;
+
+                &-minus {
+                    &:disabled {
+                        cursor: default;
+                        color: #8b8888;
+                    }
+                }
+
+            }
+
+            &-price {
+                white-space: nowrap;
+            }
+
+            &-right {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                &-delete {
+                    cursor: pointer;
+
+                    &:hover {
+                        svg {
+                            circle {
+                                stroke: #ff7010;
+                            }
+
+                            path {
+                                color: #ff7010;
+                                fill: #ff7010;
+                            }
+                        }
+
+                    }
+                }
+
+                &-price {
+                    white-space: nowrap;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}
+
+.no-orders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    min-height: 200px;
+    max-width: 900px;
+
+    span {
+        max-width: 400px;
+    }
+}

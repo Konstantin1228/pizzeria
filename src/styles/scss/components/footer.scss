@@ -1,0 +1,40 @@
+.footer{
+    padding:32px 195px 0 195px ;
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    .colomn{
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        &-company{
+            display: flex;
+            flex-direction: column;
+            gap: 106px;
+            &-top{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                font-weight: 400;
+            }
+            &-bottom{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+        &-text{
+            display: flex;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        &-withChilds{
+            display: flex;
+            gap: 24px;
+        }
+    }
+     
+}

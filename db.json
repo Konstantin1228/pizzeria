@@ -1,0 +1,87 @@
+    [{
+            "id": 0,
+            "imageUrl": "https://ltdfoto.ru/images/2022/06/13/Rectangle-4-2.png",
+            "title": "Чикен Сладкий Чили",
+            "description": "Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, соус альфредо",
+            "compound": ["Курица", "Лук", "Перец Халапеньо", "Сыр Моцарелла", "Томатный соус"],
+            "types": ["Традиционное", "Тонкое"],
+            "sizes": [20, 28, 33],
+            "sizes_price": [700, 850, 933],
+            "additionally_title": ["Моцарелла", "Шампиньоны", "Красный лук", "Томатный соус"],
+            "additionally_price": [191, 133, 146, 432],
+            "addtionallyImage": "https://ltdfoto.ru/images/2022/06/10/Group-83.png",
+            "price": 700,
+            "weight": 500
+        },
+        {
+            "id": 1,
+            "imageUrl": "https://ltdfoto.ru/images/2022/06/13/Rectangle-4-2.png",
+            "title": "4 сезона",
+            "description": "Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы маринованые",
+            "compound": ["Курица", "Лук", "Перец Халапеньо", "Сыр Моцарелла", "Томатный соус"],
+            "types": ["Традиционное"],
+            "sizes": [20, 28, 33],
+            "sizes_price": [700, 850, 933],
+
+            "additionally_title": ["Моцарелла", "Шампиньоны", "Красный лук", "Томатный соус"],
+            "additionally_price": [191, 133, 146, 432],
+            "addtionallyImage": "https://ltdfoto.ru/images/2022/06/10/Group-83.png",
+            "price": 900,
+            "weight": 600
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://ltdfoto.ru/images/2022/06/13/Rectangle-4-2.png",
+            "title": "Курица, Лук, Перец Халапеньо",
+            "description": "Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+            "compound": ["Курица", "Лук", "Перец Халапеньо", "Сыр Моцарелла", "Томатный соус"],
+            "types": ["Традиционное", "Тонкое"],
+            "sizes": [20, 28],
+            "sizes_price": [700, 850],
+
+            "additionally_title": ["Моцарелла", "Шампиньоны", "Красный лук", "Томатный соус"],
+            "additionally_price": [191, 133, 146, 432],
+            "addtionallyImage": "https://ltdfoto.ru/images/2022/06/10/Group-83.png",
+            "price": 714,
+            "weight": 400
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://ltdfoto.ru/images/2022/06/13/Rectangle-4-2.png",
+            "title": "Сырная",
+            "description": "Сыр блю чиз, сыры чеддер и пармезан, моцарелла, соус альфредо",
+            "compound": ["Курица", "Лук", "Перец Халапеньо", "Сыр Моцарелла", "Томатный соус"],
+            "types": ["Традиционное", "Тонкое"],
+            "sizes": [20, 28, 33],
+            "sizes_price": [700, 850, 933],
+
+            "additionally": {
+                "Моцарелла": 55,
+                "Шампиньоны": 44,
+                "Красный лук": 39,
+                "Сладкий перец": 39
+            },
+            "additionally_title": ["Моцарелла", "Шампиньоны", "Красный лук", "Томатный соус"],
+            "additionally_price": [191, 133, 146, 432],
+            "addtionallyImage": "https://ltdfoto.ru/images/2022/06/10/Group-83.png",
+            "price": 450,
+            "weight": 300
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://ltdfoto.ru/images/2022/06/13/Rectangle-4-2.png",
+            "title": "Ветчина",
+            "description": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
+            "compound": ["Курица", "Лук", "Перец Халапеньо", "Сыр Моцарелла", "Томатный соус"],
+            "types": ["Традиционное", "Тонкое"],
+            "sizes": [20, 28, 33],
+            "sizes_price": [700, 850, 933],
+
+            "additionally_title": ["Моцарелла", "Шампиньоны", "Красный лук", "Томатный соус"],
+            "additionally_price": [191, 133, 146, 432],
+            "addtionallyImage": "https://ltdfoto.ru/images/2022/06/10/Group-83.png",
+            "price": 700,
+            "weight": 500
+        }
+
+    ]
